@@ -1,5 +1,5 @@
 # multiples
-Website that allows the user to pick a number and all multiples of that number will be highlighted in a number grid
+Website that allows the user to pick a number, then all multiples of that number will be highlighted in a number grid.
 
 So far it does not do anything, just has a grid and I am playing with styling it.
 
