@@ -1,42 +1,27 @@
 body {
-  background-color: #688C4F;
+  background-color: white;
   margin: 0; padding: 0;
 }
 
+td {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+.td-multiple {
+  background-color: #3ebeff
+}
+
 table {
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
-  border-spacing: 5px;
-  border-color #000000;
-}
-
-.td {
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  padding:10px 5px;
-  border-style:solid;
-  border-width:10px;
-  border-color: #000000;
-  overflow:hidden;
-  word-break:normal;
-}
-
-.tr {
-}
-
-.regular-cell
-{
-    float:left;/*fix for  buggy browsers*/
-    display:table-column;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    background-color: #ffffff;
 }
 
 .control-div {
+  align-self: center;
   margin: 0 auto;
-  width: 100px;
+  width: 70px;
   height: 50px;
-  background-color: #ccc;
 }
